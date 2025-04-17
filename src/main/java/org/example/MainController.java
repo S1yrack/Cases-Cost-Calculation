@@ -75,8 +75,6 @@ public class MainController {
                 resultCost += countOfCases[i] * cost[i];
             }
 
-            System.out.println(resultCost);
-
             dataController.writeAmountToFile(resultCost);
             dataController.writeCountToFile(countOfCases);
             dataController.result(resultCost, countOfCases);

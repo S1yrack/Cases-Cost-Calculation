@@ -20,7 +20,7 @@ public class DataController {
         for (int i = 0; i < doubleArray.size(); i++) {
             result += doubleArray.get(i);
         }
-
+        System.out.println();
         System.out.println("---------------------------------------");
         System.out.println("Count of Cases:");
         System.out.println("SNAKEBITE: " + intArray[0]);
