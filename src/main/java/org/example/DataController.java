@@ -72,6 +72,8 @@ public class DataController {
         NumberFormat format = NumberFormat.getInstance(Locale.US);
 
         while((line = reader.readLine()) != null){
+
+            if(line.isEmpty()) continue;
             double number = Double.parseDouble(line.trim());
             result.add(number);
         }
